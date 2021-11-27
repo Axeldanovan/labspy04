@@ -34,4 +34,46 @@ list[3:] = "f", "g"
 -ini untuk merubah elemen ke 4 sampai terakhir dengan string "f" dan "g". maka ditulis list[3:]
 print("merubah elemen ke 4 sampai elemen terakhir:", list)
 
+# hasil output program 
+![outputlist](https://user-images.githubusercontent.com/81457697/143723667-3938f848-6ccb-42c2-8281-3c192278418a.png)
+
+# latihan untuk menambahkan elemen dalam list
+berikut input nya
+![inputlistambahan](https://user-images.githubusercontent.com/81457697/143723856-c0937a76-7cd1-4128-934c-d135926784d4.png)
+
+# tambah elemen list
+a=[1,2,3,4,5]
+b=[6,7,8,9,10]
+
+-diatas adalah untuk membuat 2 list
+
+# Ambil 2 bagian list A ke list B
+b.append(a[1:3])
+print("2 bagian List A dijadikan List B:", b)
+
+-diatas adalah code untuk menambahkan list A kedalam list B dengan menggunakan perintah append
+
+# tambah list b dengan string
+b.append("saya")
+print("Tambah B dengan Sring:", b)
+
+-diatas adalah untuk menambahkan list B dengan string menggunakan append
+
+# tambah list b dengan 3 nilai
+print("Tambah list b dengan 3 nilai:", b+[11,12,13])
+
+-diatas adalah untuk menambahkan list b dengan 3 nilai dengan menggunakan arithmatic +
+
+# Gabungan List B dan A
+c=b+a
+print("Gabungan list B dan A:", c)
+
+-dan yang di atas ini adalah untuk menggabungkan list B dan list A, menjadi list C
+
+# hasil output program nya
+![outputlisttambahan](https://user-images.githubusercontent.com/81457697/143723804-f8bc1947-86b1-4865-b861-6db97f3303b7.png)
+
+#praktikum labs 4
+
+# membuat list nilai mahasiswa
 
