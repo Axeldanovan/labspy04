@@ -76,4 +76,62 @@ print("Gabungan list B dan A:", c)
 #praktikum labs 4
 
 # membuat list nilai mahasiswa
+-flowchart program mahasiswa 
+![Screenshot_381](https://user-images.githubusercontent.com/81457697/143724671-d6b256f3-1096-4056-9842-f9e87fc73eb5.png)
+![Screenshot_382](https://user-images.githubusercontent.com/81457697/143724676-0ac016ae-8917-4657-9a96-a6253df8b9d9.png)
 
+# input program nya
+![inputnilaimahasiswa](https://user-images.githubusercontent.com/81457697/143724778-a2a174ba-9414-4e51-9999-a4abf8f40238.png)
+![Screenshot_383](https://user-images.githubusercontent.com/81457697/143724828-103ac358-ecd3-41fb-b1d8-330496c09eee.png)
+
+Keterangan:
+i=0
+
+-diatas adalah untuk menginisiasikan variable i sama dengan 0, karena diprogram ini akan menggunakan perulangan while dan for, jadi perlu di inisiasikan agar tidak terjadi error
+nama=[]
+nim=[]
+tugas=[]
+uts=[]
+uas=[]
+nilai_akhir=[]
+
+-diatas adalah untuk mendefinisikan list nya, terdapat list untuk menampung nama, nim, tugas, uts, uas, dan nilai akhir
+
+while True:
+    s_nama=input("Nama  : ")
+    nama.append(s_nama)
+    s_nim=input("NIM    : ")
+    nim.append(s_nim)
+    i_tugas=input("Nilai Tugas  : ")
+    tugas.append(i_tugas)
+    i_uts=input("Nilai UTS  : ")
+    uts.append(i_uts)
+    i_uas=input("Nilai UAS    : ")
+    uas.append(i_uas)
+
+-diatas adalah code untuk menginput isi dalam list tersebut, juga untuk menambahkan list jika sudah menginput 1 nama atau nilai dalam list, dengan menggunakan append dan menggunakan pengulangan while
+i_nilai_akhir=(int(i_tugas)*0.30)+(int(i_uts)*0.35)+(int(i_uas)*0.35)
+nilai_akhir.append(i_nilai_akhir)
+
+-diatas adalah code untuk menghitung nilai akhir dengan kondisi nilai akhir 30% dari nilai tugas, ditambah 35% dari nilai UTS dan juga 35% dari nilai UAS, dengan kemudian diubah persentase menjadi bentuk desimal, maka terdapat 0.30, 0.35. sedangkan untuk nilai_akhir.append adalah untuk menambahkan list dari yang telah di inputkan sebelum akhirnya di tampilkan
+
+more=""
+   while more!="y" and more!="t":
+    more=input("Tambah Data (y/t) ?")
+i+=1
+if more=="t":
+    break
+
+-sedangkan code diatas adalah untuk perintah menambahkan data dengan pertanyaan ya atau tidak, dengan definisi jika ya, maka ketikkan y pada keyboard, maka akan mengulang inputan list. dan jika tidak, ketikkan t paada keyboard, maka akan menampilkan hasil list yang telah di inputkan
+print("                                       Daftar Mahasiswa                               ")
+print("======================================================================================")
+print("|    No.    |    Nama    |   NIM    |    Tugas   |   UTS    |    UAS    |    Akhir   |")
+print("======================================================================================")
+
+-diatas untuk membuat border agar terlihat rapi
+for n in range(i):
+    print("|    ",n+1,"    |    ",nama[n],"    |   ",nim[n],"    |    ",tugas[n],"   |   ",uts[n],"    |    ",uas[n],"    |    ",nilai_akhir[n],"   |")
+
+
+-dan yang diatas adalah untuk menampilkan hasil dari list yang telah di inputkan, dengan menggunakan perulangan for n in range. dan berikut hasil ouput programnya:
+![outputnilaimahasiswa](https://user-images.githubusercontent.com/81457697/143724838-443228ae-488f-4b59-a4a0-9e477f3d4c9d.png)
