@@ -40,7 +40,7 @@ print("merubah elemen ke 4 sampai elemen terakhir:", list)
 # latihan untuk menambahkan elemen dalam list
 berikut input nya
 
-
+![inputlisttambahan](https://user-images.githubusercontent.com/81457697/143730434-3f4af5d5-eaf8-42a7-8955-40c6adaac698.png)
 
 # tambah elemen list
 a=[1,2,3,4,5]
