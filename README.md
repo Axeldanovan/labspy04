@@ -77,6 +77,7 @@ print("Gabungan list B dan A:", c)
 
 # membuat list nilai mahasiswa
 -flowchart program mahasiswa 
+
 ![Screenshot_381](https://user-images.githubusercontent.com/81457697/143724671-d6b256f3-1096-4056-9842-f9e87fc73eb5.png)
 ![Screenshot_382](https://user-images.githubusercontent.com/81457697/143724676-0ac016ae-8917-4657-9a96-a6253df8b9d9.png)
 
