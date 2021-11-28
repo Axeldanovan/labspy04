@@ -72,7 +72,7 @@ print("Gabungan list B dan A:", c)
 -dan yang di atas ini adalah untuk menggabungkan list B dan list A, menjadi list C
 
 # hasil output program nya
-![outputlisttambahan](https://user-images.githubusercontent.com/81457697/143723804-f8bc1947-86b1-4865-b861-6db97f3303b7.png)
+
 
 #praktikum labs 4
 
