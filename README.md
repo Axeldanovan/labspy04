@@ -73,6 +73,7 @@ print("Gabungan list B dan A:", c)
 
 # hasil output program nya
 
+![outputlisttambahan](https://user-images.githubusercontent.com/81457697/143730793-94e286f3-6e05-455d-8514-efedae553a6c.png)
 
 #praktikum labs 4
 
